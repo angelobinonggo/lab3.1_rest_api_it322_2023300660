@@ -2,12 +2,12 @@
 **IT322 | Student ID: 2023300660**
 
 A fully-featured Django REST API for managing students in a university system, implementing:
-- ✅ **Lab 3.1** – REST API Design & Implementation (CRUD)
-- ✅ **Lab 3.2** – JWT Authentication, Swagger Documentation & Debugging
+- **Lab 3.1** – REST API Design & Implementation (CRUD)
+- **Lab 3.2** – JWT Authentication, Swagger Documentation & Debugging
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -33,7 +33,7 @@ python manage.py runserver
 
 ---
 
-## 🔑 Authentication (Lab 3.2 – Part A)
+## Authentication (Lab 3.2 – Part A)
 
 This API uses **JWT (JSON Web Token)** authentication via `djangorestframework-simplejwt`.
 
@@ -95,7 +95,7 @@ All endpoints are prefixed with `/api/v1/` for versioning.
 
 ---
 
-## 📋 Sample Requests (Lab 3.1 – Part F)
+## Sample Requests (Lab 3.1 – Part F)
 
 ### Create a Student (POST)
 ```json
@@ -147,7 +147,7 @@ lab3.1_rest_api_it322_2023300660/
 
 ---
 
-## 🔒 Security Testing (Lab 3.2 – Part D)
+## Security Testing (Lab 3.2 – Part D)
 
 - Without a token → `401 Unauthorized`
 - With valid token → `200 OK`
@@ -155,7 +155,7 @@ lab3.1_rest_api_it322_2023300660/
 
 ---
 
-## 🐛 Debugging (Lab 3.2 – Part D)
+## Debugging (Lab 3.2 – Part D)
 
 Logging is configured in `settings.py`. All student view actions are logged:
 ```
